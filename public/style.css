@@ -1,0 +1,46 @@
+#afterReviews4 {
+  position: relative;
+  height: 650px;
+  width: 90%;
+  margin: 0 40px 0 120px;
+  top: 400px;
+}
+
+#hardcodePhoto1 {
+  position: relative;
+  right: 100px;
+  width: 80%;
+  height: 80%;
+}
+
+#hardcodePhoto2 {
+  position: relative;
+  right: 100px;
+  width: 80%;
+  height: 80%;
+}
+
+#hardcodePhoto3 {
+  position: relative;
+  right: 100px;
+  width: 80%;
+  height: 80%;
+}
+
+#parentRes {
+  position: absolute;
+  height: 210%;
+  top: 525px;
+  right: 150px;
+}
+
+#reservation {
+  top: 0;
+  left: 0;
+  position: sticky;
+}
+
+#recommendations {
+  position: relative;
+  left: 135px;
+}
