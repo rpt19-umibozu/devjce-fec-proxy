@@ -1,5 +1,6 @@
 const express = require('express');
 const fullPath = '/Users/jeisenmann/VSCode/FrontEndCapstone/devjce-fec-proxy/public/index.html';
+const path = require('path');
 
 let app = express();
 
@@ -8,7 +9,7 @@ app.use(express.text());
 app.use(express.urlencoded());
 
 app.get('/:id', (req, res) => {
-  res.sendFile(fullPath);
+  res.sendFile(path.join(__dirname, '../public', '/index.html'));
 });
 
 app.listen(3000, () => {
