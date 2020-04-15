@@ -1,35 +1,39 @@
+#reviews #reviewSection {
+  margin: 0px 100px 0px 130px;
+}
+
 #afterReviews4 {
   position: relative;
   height: 650px;
   width: 90%;
   margin: 0 40px 0 120px;
-  top: 400px;
+  top: 0px;
 }
 
-#hardcodePhoto1 {
+#PhotoService #photoGalleryService #hardcodePhoto1 {
   position: relative;
-  right: 100px;
-  width: 80%;
+  right: 125px;
   height: 80%;
+  width: 80%;
 }
 
-#hardcodePhoto2 {
+#PhotoService #photoGalleryService #hardcodePhoto2 {
   position: relative;
-  right: 100px;
-  width: 80%;
+  right: 125px;
   height: 80%;
+  width: 80%;
 }
 
-#hardcodePhoto3 {
+#PhotoService #photoGalleryService #hardcodePhoto3 {
   position: relative;
-  right: 100px;
-  width: 80%;
+  right: 125px;
   height: 80%;
+  width: 80%;
 }
 
 #parentRes {
   position: absolute;
-  height: 210%;
+  height: 215%;
   top: 525px;
   right: 150px;
 }
@@ -42,5 +46,5 @@
 
 #recommendations {
   position: relative;
-  left: 135px;
+  left: 105px;
 }
